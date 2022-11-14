@@ -12,8 +12,8 @@ const Cart = ( {servise}) => {
         <Container>
         <Row>
           <Col className='mt-3 '>
-          <Card style={{ width: '18rem',height:'450px' }}>
-   <Card.Img variant="top" src={img} style={{height:'200px', }} />
+          <Card style={{ width: '',height:'500px' }}>
+   <Card.Img variant="top" src={img} style={{height:'100px', }} />
   <Card.Body>
    <Card.Title> {name} </Card.Title>
     <Card.Text >
@@ -25,7 +25,7 @@ const Cart = ( {servise}) => {
    </Card.Text>
     <p> Price : ${Price} </p>
  
-   <Button variant="primary">Details</Button>
+   <Button variant="primary" >Details</Button>
 </Card.Body>
  </Card>
           </Col>

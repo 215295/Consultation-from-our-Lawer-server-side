@@ -25,7 +25,7 @@ const ReviewTable = ({review, deletedReview }) => {
             <tr> 
             <td>
 
-            <button onClick={()=>deletedReview(_id)} >X</button>
+            <button onClick={()=>deletedReview(_id)} style={{border:'none',}} >X</button>
             </td>
             <td colSpan={0}> {
                 

@@ -67,7 +67,7 @@ const AddReview = () => {
                           <tr>
                             <th>#</th>
                             <th>Service img</th>
-                            <th>user img</th>
+                            <th>User img</th>
                             <th>Service Name</th>
                             <th>Review </th>
                             <th> UserName </th>

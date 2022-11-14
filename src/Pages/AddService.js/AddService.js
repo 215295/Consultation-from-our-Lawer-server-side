@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import toast from 'react-hot-toast';
 import PrivateHook from '../../PrivateHook/PrivateHook';
+import './Addservices.css'
 
 
 
@@ -61,9 +62,9 @@ const AddService = () => {
         <Container>
             <Row>
 
-                <Col>
+                <Col className='addservices'>
                    
-                <div className=' mt-5 ms-5 w-50 border border-4  bg-white ' style={{height:'400px'}} >
+                <div className='addservices  mt-5 ms-5 w-50 border border-4  bg-white ' style={{height:'400px'}} >
 
                                                  <h5 className='text-center'> Add Service ...</h5>
            <form  onSubmit={handlarSummit}>

@@ -36,7 +36,7 @@ const Home = () => {
        position:'relative', backgroundColor:'lightcyan', height:'100%', width:"100%" }}>
      
       {
-         services.map(servise => <Cart
+         services.map(servise => <Cart 
          
              key={servise._id}
 
