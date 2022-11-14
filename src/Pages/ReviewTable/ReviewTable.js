@@ -13,7 +13,7 @@ const ReviewTable = ({review, deletedReview }) => {
 
             useEffect( ()=>{
             
-                 fetch(`https://service-review-server-side-plum.vercel.app/services/${service}`)
+                 fetch(`https://service-review-server-side-215295.vercel.app/services/${service}`)
                   .then(res => res.json())
                   .then(data => setServiche(data))
 

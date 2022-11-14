@@ -39,7 +39,7 @@ const DetailService = () => {
 
               
 
-             fetch('https://service-review-server-side-plum.vercel.app/reviews',{
+             fetch('https://service-review-server-side-215295.vercel.app/reviews',{
 
               method:'POST',
 

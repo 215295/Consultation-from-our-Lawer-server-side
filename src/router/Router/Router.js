@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
  { path:'/', element: <Main> </Main>, children:[
    
     { path:'/',  element:<Home></Home>,
-         loader:()=>fetch('https://service-review-server-side-plum.vercel.app/service')
+         loader:()=>fetch('https://service-review-server-side-215295.vercel.app/service')
       },
       
 
@@ -33,7 +33,7 @@ export const router = createBrowserRouter([
  
    
   { path: '/detailService/:id', element: <DetailService></DetailService> ,
-  loader: ({ params }) => fetch(`https://service-review-server-side-plum.vercel.app/services/${params.id}`)
+  loader: ({ params }) => fetch(`https://service-review-server-side-215295.vercel.app/services/${params.id}`)
 },
     
 {path:'/addservice', element: <PrivateRoute><AddService> </AddService> </PrivateRoute>
@@ -43,3 +43,4 @@ export const router = createBrowserRouter([
     
 
 ])
+//assass

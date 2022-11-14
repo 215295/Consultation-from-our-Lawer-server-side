@@ -16,7 +16,7 @@ const AddService = () => {
           console.log(service)
           event.target.reset()
 
-          fetch('https://service-review-server-side-plum.vercel.app/services',{
+          fetch('https://service-review-server-side-215295.vercel.app/services',{
            
             method:'POST',
             headers:{

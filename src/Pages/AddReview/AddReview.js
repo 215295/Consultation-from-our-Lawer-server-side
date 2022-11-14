@@ -15,7 +15,7 @@ const AddReview = () => {
     console.log(reviews)
     useEffect( ()=>{
        
-        fetch(`https://service-review-server-side-plum.vercel.app/reviews?email=${user?.email}`)
+        fetch(`https://service-review-server-side-215295.vercel.app/reviews?email=${user?.email}`)
 
         .then(res => res.json()) 
         .then(data =>setReviews(data) )
@@ -28,7 +28,7 @@ const AddReview = () => {
            
      if(sure){
 
-           fetch(`https://service-review-server-side-plum.vercel.app/reviews/${id}`, {
+           fetch(`https://service-review-server-side-215295.vercel.app/reviews/${id}`, {
 
             method:'DELETE',
 
