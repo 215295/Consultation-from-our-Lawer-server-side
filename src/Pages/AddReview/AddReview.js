@@ -28,7 +28,7 @@ const AddReview = () => {
            
      if(sure){
 
-           fetch(`https://service-review-server-side-215295.vercel.app/reviews/${id}`, {
+          //  fetch(`https://service-review-server-side-215295.vercel.app/reviews/${id}`, {
 
             method:'DELETE',
 
