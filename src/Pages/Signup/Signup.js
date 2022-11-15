@@ -38,7 +38,7 @@ const Signup = () => {
               email: user.email
           }
 
-        fetch('https://genius-car-server-olive.vercel.app/jwt',{
+        fetch('https://service-review-server-side-215295.vercel.app/jwt',{
 
            method:'POST',
            headers:{

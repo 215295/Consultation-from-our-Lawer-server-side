@@ -34,7 +34,7 @@ const Services = () => {
                 <Col>
                 
                 <div style={{ display :"grid",
-               gridTemplateColumns : 'auto auto auto ',   height:'100%' }} >
+               gridTemplateColumns : 'auto auto auto  auto',   height:'100%' }} >
            
            {
               secvices.map(service => <ServiceCart 

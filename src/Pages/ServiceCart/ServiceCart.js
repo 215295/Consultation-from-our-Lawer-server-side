@@ -14,7 +14,7 @@ const ServiceCart = ({service}) => {
         <Container>
         <Row>
           <Col className='mt-3 '>
-        <Card style={{ width: '18rem',height:'100%' , }}>
+        <Card style={{ width: '',height:'100%' , }}>
         <PhotoProvider>
         <PhotoView src={img} className="height-20px">
         <img src={img} style={{height:'200px', }}  alt="" />
