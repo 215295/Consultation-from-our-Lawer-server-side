@@ -14,7 +14,7 @@ const Footer = () => {
                 
                 
 
-                 <div className='  pt-2 gap-5 text-center my-3 d-flex flex-lg-row footer   justify-content-center align-items-center'>
+                 <div className='footer  pt-2 gap-5 text-center my-3 d-flex flex-lg-row footer   justify-content-center align-items-center'>
                    <span className=' ' > 
                     
                    <FaGoogle className='me-2 fs-3 text-primary '  />
