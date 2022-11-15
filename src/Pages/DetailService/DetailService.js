@@ -161,3 +161,5 @@ const DetailService = () => {
 };
 
 export default DetailService;
+
+//details
