@@ -41,7 +41,7 @@ const Carusol = () => {
         />
 
         <Carousel.Caption>
-          <h3>Business Lawyer Job Description</h3>
+          <h3>Business Lawyer Job </h3>
           
         </Carousel.Caption>
       </Carousel.Item>
