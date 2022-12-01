@@ -24,7 +24,7 @@ app.use(express.json())
 
 
 
-// const uri =`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.bcwedii.mongodb.net/?retryWrites=true&w=majority";
+
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.bcwedii.mongodb.net/?retryWrites=true&w=majority`;
 // const uri = "mongodb+srv://law:GSd7fyKaT1qPBNvj@cluster0.bcwedii.mongodb.net/?retryWrites=true&w=majority";
 
